@@ -18,6 +18,10 @@
       overflow: hidden;
       background: #0b2a5c;
     }
+    body {
+      box-sizing: border-box;
+      padding-top: env(safe-area-inset-top, 0px);   /* ينزّل الصفحة تحت الساعة والنوتش */
+    }
     iframe {
       display: block;
       width: 100%;
